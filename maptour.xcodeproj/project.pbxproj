@@ -12,6 +12,14 @@
 		E53449F51F8F066900CABFA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53449F31F8F066900CABFA6 /* Main.storyboard */; };
 		E53449F71F8F066900CABFA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E53449F61F8F066900CABFA6 /* Assets.xcassets */; };
 		E53449FA1F8F066900CABFA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53449F81F8F066900CABFA6 /* LaunchScreen.storyboard */; };
+		E5344A021F8F06AF00CABFA6 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = E5344A011F8F06AF00CABFA6 /* data.plist */; };
+		E5344A061F8F103D00CABFA6 /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = E5344A051F8F103D00CABFA6 /* pin.png */; };
+		E5B3C77C1F9472E9006D29B8 /* pinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B3C77B1F9472E9006D29B8 /* pinViewController.swift */; };
+		E5B3C77E1F9472F6006D29B8 /* allViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B3C77D1F9472F6006D29B8 /* allViewController.swift */; };
+		E5B3C7821F9473FF006D29B8 /* zenos3.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B3C77F1F9473FF006D29B8 /* zenos3.png */; };
+		E5B3C7831F9473FF006D29B8 /* zenos2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E5B3C7801F9473FF006D29B8 /* zenos2.jpeg */; };
+		E5B3C7841F9473FF006D29B8 /* zenos.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E5B3C7811F9473FF006D29B8 /* zenos.jpeg */; };
+		E5B3C7861F947402006D29B8 /* zenos4.png in Resources */ = {isa = PBXBuildFile; fileRef = E5B3C7851F947402006D29B8 /* zenos4.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		E53449F61F8F066900CABFA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E53449F91F8F066900CABFA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E53449FB1F8F066900CABFA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5344A011F8F06AF00CABFA6 /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+		E5344A051F8F103D00CABFA6 /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pin.png; path = ../../../../Downloads/pin.png; sourceTree = "<group>"; };
+		E5B3C77B1F9472E9006D29B8 /* pinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pinViewController.swift; sourceTree = "<group>"; };
+		E5B3C77D1F9472F6006D29B8 /* allViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = allViewController.swift; sourceTree = "<group>"; };
+		E5B3C77F1F9473FF006D29B8 /* zenos3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zenos3.png; path = ../../../zenos3.png; sourceTree = "<group>"; };
+		E5B3C7801F9473FF006D29B8 /* zenos2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = zenos2.jpeg; path = ../../../zenos2.jpeg; sourceTree = "<group>"; };
+		E5B3C7811F9473FF006D29B8 /* zenos.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = zenos.jpeg; path = ../../../zenos.jpeg; sourceTree = "<group>"; };
+		E5B3C7851F947402006D29B8 /* zenos4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zenos4.png; path = ../../../zenos4.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +70,17 @@
 		E53449EE1F8F066900CABFA6 /* maptour */ = {
 			isa = PBXGroup;
 			children = (
+				E5B3C7851F947402006D29B8 /* zenos4.png */,
+				E5B3C77F1F9473FF006D29B8 /* zenos3.png */,
+				E5B3C7801F9473FF006D29B8 /* zenos2.jpeg */,
+				E5B3C7811F9473FF006D29B8 /* zenos.jpeg */,
 				E53449EF1F8F066900CABFA6 /* AppDelegate.swift */,
 				E53449F11F8F066900CABFA6 /* ViewController.swift */,
+				E5344A051F8F103D00CABFA6 /* pin.png */,
 				E53449F31F8F066900CABFA6 /* Main.storyboard */,
+				E5B3C77B1F9472E9006D29B8 /* pinViewController.swift */,
+				E5B3C77D1F9472F6006D29B8 /* allViewController.swift */,
+				E5344A011F8F06AF00CABFA6 /* data.plist */,
 				E53449F61F8F066900CABFA6 /* Assets.xcassets */,
 				E53449F81F8F066900CABFA6 /* LaunchScreen.storyboard */,
 				E53449FB1F8F066900CABFA6 /* Info.plist */,
@@ -125,7 +149,13 @@
 			files = (
 				E53449FA1F8F066900CABFA6 /* LaunchScreen.storyboard in Resources */,
 				E53449F71F8F066900CABFA6 /* Assets.xcassets in Resources */,
+				E5344A021F8F06AF00CABFA6 /* data.plist in Resources */,
+				E5344A061F8F103D00CABFA6 /* pin.png in Resources */,
+				E5B3C7861F947402006D29B8 /* zenos4.png in Resources */,
 				E53449F51F8F066900CABFA6 /* Main.storyboard in Resources */,
+				E5B3C7841F9473FF006D29B8 /* zenos.jpeg in Resources */,
+				E5B3C7831F9473FF006D29B8 /* zenos2.jpeg in Resources */,
+				E5B3C7821F9473FF006D29B8 /* zenos3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +167,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E53449F21F8F066900CABFA6 /* ViewController.swift in Sources */,
+				E5B3C77C1F9472E9006D29B8 /* pinViewController.swift in Sources */,
+				E5B3C77E1F9472F6006D29B8 /* allViewController.swift in Sources */,
 				E53449F01F8F066900CABFA6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +333,7 @@
 				E5344A001F8F066900CABFA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
